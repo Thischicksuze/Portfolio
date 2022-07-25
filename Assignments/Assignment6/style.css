@@ -1,0 +1,21 @@
+body{
+  background-color: #D8CBC7;
+  color: #fff;
+}
+
+/************************************/
+/********** nav-list styles **********/
+/*************************************/
+
+#nav-list{
+  list-style-type: none;}
+
+
+
+#nav-list li{
+  display: inline;
+}
+
+#nav-List li a:hover{
+  color:lime;
+}
