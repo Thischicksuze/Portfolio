@@ -3,5 +3,16 @@ body{
   background-image: url('Assets/CityBeach.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #0396A6;
+}
+
+
+h1{
+  text-align: center;
+}
+p{text-align: center;color: #A68692;
+}
+li{text-align: center;color: #A68692;
+list-style-type: none;
+
 }
