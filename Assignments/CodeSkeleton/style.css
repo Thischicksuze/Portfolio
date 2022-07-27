@@ -1,0 +1,7 @@
+body{
+  /* background-color: purple; */
+  background-image: url('Assets/CityBeach.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
