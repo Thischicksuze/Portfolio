@@ -2,6 +2,7 @@ body{
   background-color: lavender;
   font-family: sans-serif;
   margin: 0;
+  max-width: 99%
 }
 
 
@@ -12,13 +13,19 @@ header, footer{
     padding-left: 5px;
     float: left;
     width: 100%;
-
 }
+
+    nav{
+      float: left;
+      width: 100%;
+    }
+
+
 
 
 nav ul li{
-  display:inline;
   list-style-type: none;
+  display: inline;
 }
 
 ul{
@@ -31,10 +38,10 @@ a{
 
 main{
   background-color: #049993;
-  padding: 4px;
-  padding-right:
+  padding: 10px;
+  /* padding-right: */
   float: left;
-  width: 99%;
+  width: 100%;
 }
 
 section{
