@@ -56,9 +56,31 @@ aside {
     height: 125px;
     justify-content: center;
     align-items: center;
-
   }
 }
 
+
 /* your CSS for desktop goes in here */
 @media screen and (min-width: 800px) {
+
+
+
+
+  aside{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  aside .fakeLink{
+    width: 100%;
+
+  }
+
+  aside .fakeLink2{
+    display: flex;
+    flex: 1;
+   /* width: 33.33%; */
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  }
