@@ -5,7 +5,35 @@ body{
 
 .container{
   display: grid;
+  width: 100%;
   grid-template-columns: repeat(5, 1fr);
   /* grid-template-columns: 1fr,1fr,1fr,1fr,1fr; */
   grid-template-rows: auto;
+  grid-template-areas:
+  "header header header header header"
+  "sidenav content content content content"
+  "sidenav content content content content"
+  "footer footer footer footer footer"
+}
+
+
+.header{
+  background-color: #8FED90;
+
+}
+
+
+.sidenav{
+background-color: #DDFEDC;
+}
+
+
+.content{
+  background-color: cyan;
+}
+
+
+.footer{
+background-color: #008001;
+
 }
