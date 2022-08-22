@@ -53,16 +53,29 @@ aside {
   aside .fakeLink, .fakeLink2{
     display: flex;
     width: 50%;
-    height: 125px;
+    height: 200px;
     justify-content: center;
     align-items: center;
   }
 }
 
-
 /* your CSS for desktop goes in here */
 @media screen and (min-width: 800px) {
 
+nav{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+
+nav .fakeLink{
+  display: flex;
+  width: 33.33%;
+  /* flex: 1; */
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
@@ -70,17 +83,15 @@ aside {
     flex-direction: row;
     flex-wrap: wrap;
   }
-
   aside .fakeLink{
     width: 100%;
-
   }
-
   aside .fakeLink2{
     display: flex;
-    flex: 1;
-   /* width: 33.33%; */
-  height: 100px;
-  justify-content: center;
-  align-items: center;
+    width: 33.33%;
+    /* flex: 1; */
+    height: 100px;
+    align-items: center;
+    justify-content: center;
   }
+}
