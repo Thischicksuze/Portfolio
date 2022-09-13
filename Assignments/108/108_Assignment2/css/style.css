@@ -1,0 +1,35 @@
+
+body {
+  height: 1500px;
+  position: relative;
+}
+
+nav {
+  background-color: orange;
+}
+
+
+#navbar1 {
+  background-color: lightgreen;
+  position: fixed;
+  width: 100%;
+}
+
+#navbar2 {
+  background-color: pink;
+  position: relative;
+  top: 150px;
+}
+
+#navbar3 {
+  background-color: yellow;
+  position: absolute;
+  bottom: 150px;
+  width: 100%;
+}
+
+
+li {
+  display: inline;
+  padding: 10px;
+}
