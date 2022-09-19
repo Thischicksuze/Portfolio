@@ -163,9 +163,9 @@ nav h2 {
 /****************************************************************************
   Media Query - Mobile Breakpoint
 ****************************************************************************/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   #sireGrid {
-  grid-template-columns: 1fr
+  grid-template-columns: 1fr;
   grid-template-areas:
     "navArea"
     "heroArea"
