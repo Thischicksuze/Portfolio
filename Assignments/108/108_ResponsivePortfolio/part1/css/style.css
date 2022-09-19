@@ -62,7 +62,7 @@ footer a:hover {
     ". threeCardsArea ."
     ". gallery1Area ."
     ". twoCardsArea ."
-    ". footerArea footerArea footerArea .";
+    " footerArea footerArea footerArea ";
 }
 
 nav {
@@ -164,7 +164,7 @@ nav h2 {
   Media Query - Mobile Breakpoint
 ****************************************************************************/
 @media screen and (max-width: 800px) {
-  #sireGrid {
+  #siteGrid {
   grid-template-columns: 1fr;
   grid-template-areas:
     "navArea"
