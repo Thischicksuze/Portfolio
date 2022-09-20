@@ -168,7 +168,8 @@ nav h2 {
   color: white;
 }
 
-#hero a {
+#hero a,
+.card a {
   background-color: white;
   color: indigo;
   border: 2px solid indigo;
@@ -180,7 +181,8 @@ nav h2 {
   transition: transform 0.25s;
 }
 
-#hero a:hover {
+#hero a:hover
+.card a:hover {
   transform: scale(1.1);
 }
 
