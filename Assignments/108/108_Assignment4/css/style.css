@@ -20,10 +20,7 @@ li{
   margin-right: auto;
 }
 
-/* @media only screen and (max-width: 768px){
-ul {
-  flex-direction: column;
-  align-items: center; */
+
 }
 #home {
   margin-right: 0;
@@ -50,4 +47,17 @@ ul {
   visibility: visible;
   opacity: 1;
   top: 100%
+}
+
+
+@media only screen and (max-width: 768px) {
+  ul{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #home{
+    margin-right: 0;
+  }
+
 }
