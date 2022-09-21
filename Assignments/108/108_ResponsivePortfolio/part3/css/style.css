@@ -261,12 +261,12 @@ nav h2 {
   margin-bottom: 24px;
 }
 
-#galleryme {
+#MyGallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-#galleryme img {
+#MyGallery img {
   height: 266.6px;
   width: 266.6px;
   object-fit: cover;
