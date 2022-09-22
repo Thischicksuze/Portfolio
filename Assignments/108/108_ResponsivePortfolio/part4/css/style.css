@@ -291,7 +291,7 @@ Carasoul styles
 /****************************************************************************
   Media Query - Mobile Breakpoint
 ****************************************************************************/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 3000px) {
   #siteGrid {
     grid-template-columns: 1fr;
     grid-template-areas:
