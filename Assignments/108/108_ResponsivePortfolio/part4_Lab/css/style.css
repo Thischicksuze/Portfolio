@@ -72,7 +72,7 @@ footer ul{
     "heroArea heroArea heroArea"
     ". threeCardsArea ."
     ". galleryArea ."
-    ". carouselArea carouselArea carouselArea"
+    ". carouselArea ."
     ". twoCardsArea ."
     "footerArea footerArea footerArea";
 }
@@ -111,6 +111,10 @@ nav {
   margin: 0 24px;
 }
 
+#navLinks {
+  justify-content: center;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -128,7 +132,7 @@ footer {
 }
 
 nav .socialMedia {
-  justify-content: flex;
+  justify-content: flex-end;
   padding-left:0px;
 }
 
@@ -303,7 +307,7 @@ Carasoul styles
 /****************************************************************************
   Media Query - Mobile Breakpoint
 ****************************************************************************/
-@media screen and (max-width: 3000px) {
+@media screen and (max-width: 800px) {
   #siteGrid {
     grid-template-columns: 1fr;
     grid-template-areas:
