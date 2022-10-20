@@ -83,14 +83,13 @@ function playGame(yourPick) {
 
    let result = document.getElementById("result")
    result.innerHTML = getResultText(myPick,yourPick);
-
+}
 
    function setUp() {
      let game = document.getElementById("game");
      game.onanimationend = function() {
        this.classList.remove("animate");
-     }
-
+}
 
    let closers = document.querySelectorAll(".closer");
    for (let i = 0; i < closers.length; i++) {
@@ -127,6 +126,8 @@ scissorsRight.classList.remove("selected");
 
 let result = document.getElementById("result");
 result.innerHTML = "";
+
+}
 
 function popAndPlay(yourPick){
   let popupContainer = document.getElementById("popupContainer")
